@@ -1,3 +1,4 @@
+
 // Mobile Menu Toggle
 const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
 const navMenu = document.querySelector('.nav-menu');
@@ -75,7 +76,7 @@ contactForm.addEventListener('submit', (e) => {
     }
     
     // Simulate form submission (in a real app, this would send to a server)
-    showMessage('Thank you for your message! I'll get back to you soon.', 'success');
+    showMessage("Thank you for your message! I'll get back to you soon.", 'success');
     contactForm.reset();
     
     // Hide message after 5 seconds

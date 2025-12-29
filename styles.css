@@ -61,6 +61,11 @@ header {
     font-weight: 700;
 }
 
+.logo img {
+    height: auto;
+    width: 100%;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -501,6 +506,12 @@ section {
 }
 
 @media (max-width: 480px) {
+    
+    .logo img {
+        height: auto;
+        width: 70%;
+    }
+
     .hero {
         padding: 120px 0 80px;
     }
